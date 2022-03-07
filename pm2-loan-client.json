@@ -1,0 +1,11 @@
+{
+	"apps": [
+ 	    {
+           	 "name": "loan-client",
+           	 "cwd": "/home/rdcd/App/Loan_client",
+           	 "script": "npm -- start",
+           	 "post_update": ["npm install", "npm run build"]
+            }
+	]
+}
+
